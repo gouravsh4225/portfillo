@@ -1,1 +1,264 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+
+
+body
+{
+          // font-family: 'Armata',sans-serif;
+          // font-family: 'Pacifico', cursive;
+          font-size: 16px;
+    line-height: 1.4em;
+    letter-spacing: .08em;
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+    background: #121F26;
+    color: #fff
+}
+
+/*  media queries css  start here*/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+          /* Styles */
+          }
+          
+          /* Smartphones (landscape) ----------- */
+          @media only screen and (min-width : 321px) {
+          /* Styles */
+          }
+          
+          /* Smartphones (portrait) ----------- */
+          @media only screen and (max-width : 320px) {
+          /* Styles */
+          }
+          
+          /* iPads (portrait and landscape) ----------- */
+          @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+          /* Styles */
+          }
+          
+          /* iPads (landscape) ----------- */
+          @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+          /* Styles */
+          }
+          
+          /* iPads (portrait) ----------- */
+          @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+          /* Styles */
+          }
+          /**********
+          iPad 3
+          **********/
+          @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+          /* Styles */
+          }
+          
+          @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+          /* Styles */
+          }
+          /* Desktops and laptops ----------- */
+          @media only screen  and (min-width : 1224px) {
+          /* Styles */
+          }
+          
+          /* Large screens ----------- */
+          @media only screen  and (min-width : 1824px) {
+          /* Styles */
+          }
+          
+          /* iPhone 4 ----------- */
+          @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+          /* Styles */
+          }
+          
+          @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) 
+          {
+          /* Styles */
+
+                        .main-row
+                        {
+                                    padding: 38px 10px 10px 38px !important; 
+                        }
+                        .margin-left-330
+                        {
+                            margin-left: -15px !important;
+                        }
+                        .margin-right-104
+                        {
+                            margin-right: 0px !important;
+                        }
+                        #content
+                        {
+                            margin-left: 0px !important;
+                        }
+          }
+          
+          /* iPhone 5 ----------- */
+          @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+          /* Styles */
+          }
+          
+          @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+          /* Styles */
+          }
+          
+          /* iPhone 6 ----------- */
+          @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+          /* Styles */
+          }
+          
+          @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+          /* Styles */
+          }
+          
+          /* iPhone 6+ ----------- */
+          @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+          /* Styles */
+          }
+          
+          @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+          /* Styles */
+          }
+          
+          /* Samsung Galaxy S3 ----------- */
+          @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+          /* Styles */
+          }
+          
+          @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+          /* Styles */
+          }
+          
+          /* Samsung Galaxy S4 ----------- */
+          @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+          /* Styles */
+          }
+          
+          @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+          /* Styles */
+          }
+          
+          /* Samsung Galaxy S5 ----------- */
+          @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+          /* Styles */
+          }
+          
+          @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+          /* Styles */
+          }
+/*  media queries css end here*/
+.main-row
+{
+         padding-top: 20px;
+         padding-bottom: 20px;
+         padding-left: 20px;
+         padding-right: 20px;
+}
+li
+{
+          list-style: none;
+
+
+          a{
+          text-decoration: none;
+          font-family: 'Armata',sans-serif;
+          font-size: 16px;
+          font-weight: 700;
+          color:#757575 !important;
+          }
+
+}
+
+
+.margin-left-330
+{
+          margin-left: 450px;
+}
+
+
+.navbar-nav 
+{
+            .margin-right-104
+        {
+            margin-right: 104px;
+        }
+        .nav-item a:hover
+        {
+            cursor: pointer;
+            color: #fff !important;
+        }
+
+}
+.username
+{
+    color: #FFF;
+    font-family: 'Pacifico',handwriting;
+}
+#content
+{
+margin-left: 50px;
+margin-top:40px;
+}
+.main-card
+{
+    border: none;
+    box-shadow: 3px 4px 6px rgba(255, 255, 255, 0.2);
+    .main-card-body
+    {
+        background: #1FA184;
+        .userImage
+        {
+            width: 195px;
+            height: 195px;
+            border-radius: 50px;
+        }
+        .userHeading 
+        {
+            h2
+            {
+                margin-top:30px;
+                font-family: "Aldrich";
+                text-transform: uppercase;
+            }
+
+            p
+            {
+                color: inherit;
+                opacity: .65;
+                font-size: 1.143em;
+            }
+            
+        }
+
+    }
+    .main-footer
+    {
+        background: #121F26;
+        .downloadbutton
+        {
+            background: #DEC746;
+            border-radius: 20px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #000;
+        }
+    }
+}
+.social-media
+{
+    text-align: center;
+    padding-left: 0px;
+    li
+    {
+        display: inline;
+        cursor: pointer;
+     i
+     {
+        margin-right:10px;
+        font-size: 1.25em;
+
+     }
+    }
+}
