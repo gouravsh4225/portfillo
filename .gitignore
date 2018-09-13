@@ -7,6 +7,12 @@
 
 # dependencies
 /node_modules
+/database.rules.json
+/firebase.json
+/public
+/firebase
+/firebaserc
+/publuc
 
 # IDEs and editors
 /.idea
